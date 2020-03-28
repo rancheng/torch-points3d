@@ -21,7 +21,9 @@ from src.datasets.base_dataset import BaseDataset
 
 log = logging.getLogger(__name__)
 
-# REFERENCE TO https://github.com/facebookresearch/votenet/blob/master/scannet/load_scannet_data.py
+# Ref: https://github.com/facebookresearch/votenet/blob/master/scannet/load_scannet_data.py
+# Ref: https://github.com/ScanNet/ScanNet/blob/master/BenchmarkScripts/util_3d.py
+# Ref: https://github.com/ScanNet/ScanNet/blob/master/BenchmarkScripts/3d_helpers/visualize_labels_on_mesh.py
 ###################### UTILS ##################
 
 def represents_int(s):
